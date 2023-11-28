@@ -1,0 +1,1126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------------------Header Start */
+#header {
+    height: 70px;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+#Logo {
+    height: 50px;
+    width: 85px;
+    background-image: url(Images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#close {
+    display: none;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    font-size: 27px;
+}
+
+#mob-icon {
+    display: none;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 27px;
+}
+
+/* -------------------------- Main Start */
+#Main {
+    min-height: 91vh;
+    width: 100%;
+    background-image: url(Images/Image5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title1 {
+    color: white;
+    font-size: 125px;
+    font-weight: 400;
+    padding-top: 280px;
+    margin-left: 60px;
+}
+
+.dummy-text1 {
+    height: 100px;
+    width: 700px;
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 60px;
+}
+
+.btn1 {
+    height: 65px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 60px;
+    line-height: 65px;
+    cursor: pointer;
+}
+
+/* ----------------------- Main second start */
+#M-second {
+    min-height: 110vh;
+    width: 100%;
+    background-color: #e8631c;
+    background-image: url(Images/Shape\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 650px top -330px;
+}
+
+.title2 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.dummy-text2 {
+    height: 100px;
+    width: 890px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 300px;
+}
+
+/* ------------------------------------- country box start */
+.country-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* ------------------------------------- country1 box start */
+.ctry1 {
+    height: 400px;
+    width: 300px;
+    background-color: #303030;
+}
+
+.img1 {
+    height: 270px;
+    width: 300px;
+    background-image: url(Images/Image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dummy-text3 {
+    width: 300px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ------------------------------------- country2 box start */
+.ctry2 {
+    height: 400px;
+    width: 300px;
+    background-color: #303030;
+}
+
+.img2 {
+    height: 270px;
+    width: 300px;
+    background-image: url(Images/Image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title4 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dummy-text4 {
+    width: 300px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ------------------------------------- country3 box start */
+.ctry3 {
+    height: 400px;
+    width: 300px;
+    background-color: #303030;
+}
+
+.img3 {
+    height: 270px;
+    width: 300px;
+    background-image: url(Images/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title5 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dummy-text5 {
+    width: 300px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ------------------------------- Main third start */
+#M-third {
+    min-height: 115vh;
+    width: 100%;
+    background-color: #303030;
+    background-image: url(Images/Shape\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 700px top -700px;
+}
+
+.title6 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.dummy-text6 {
+    height: 100px;
+    width: 1200px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
+/* ------------------------------------- course box start */
+.course-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+/* ------------------------------------- course1 box start */
+.course1 {
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #e8631c;
+}
+
+.img4 {
+    height: 129px;
+    width: 110px;
+    background-image: url(Images/Bach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.title7 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dummy-text7 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price-box1 {
+    height: 50px;
+    width: 280px;
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+/* ------------------------------------- course2 box start */
+.course2 {
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #e8631c;
+}
+
+.img4 {
+    height: 129px;
+    width: 110px;
+    background-image: url(Images/Bach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.title8 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dummy-text8 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price-box2 {
+    height: 50px;
+    width: 280px;
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+/* ------------------------------------- course3 box start */
+.course3 {
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #e8631c;
+}
+
+.img4 {
+    height: 129px;
+    width: 110px;
+    background-image: url(Images/Bach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.title9 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dummy-text9 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price-box3 {
+    height: 50px;
+    width: 280px;
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+/* ---------------------------------- Main fourth Start */
+#M-fourth {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* ---------------------------------- dance-type1 Start */
+.dance-type1 {
+    height: inherit;
+    width: 100%;
+    display: flex;
+}
+
+.img5 {
+    height: 709px;
+    width: 50%;
+    background-image: url(Images/Image6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content1 {
+    height: 709px;
+    width: 50%;
+    background-color: #e8631c;
+}
+
+.background-design1 {
+    height: 800px;
+    width: 700px;
+    background-image: url(Images/Shape\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -200px left 200px;
+    position: absolute;
+}
+
+.title10 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.dummy-text10 {
+    width: 700px;
+    color: wheat;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.btn2 {
+    height: 50px;
+    width: 300px;
+    background-color: #303030;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/* ---------------------------------- dance-type2 Start */
+.dance-type2 {
+    height: inherit;
+    width: 100%;
+    display: flex;
+}
+
+.content2 {
+    height: 709px;
+    width: 50%;
+    background-color: #e8631c;
+}
+
+.title11 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.dummy-text11 {
+    width: 700px;
+    color: wheat;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.btn3 {
+    height: 50px;
+    width: 300px;
+    background-color: #303030;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.background-design2 {
+    height: 220px;
+    width: 700px;
+    background-image: url(Images/Shape\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -200px left -200px;
+    position: absolute;
+}
+
+.img6 {
+    height: 709px;
+    width: 50%;
+    background-image: url(Images/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --------------------------------- Main Fifth */
+#M-fifth {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #303030;
+}
+
+.title12 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.dummy-text12 {
+    width: 1200px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
+.statistics-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.info1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info1 span {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* -------------------------------- Main Sixth start */
+#M-sixth {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.img7 {
+    height: 900px;
+    width: 100%;
+    background-image: url(Images/Image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgae-overlay {
+    height: 900px;
+    width: 100%;
+    background-color: #e8631ca0;
+}
+
+.dummy-text13 {
+    height: 400px;
+    width: 920px;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 300px;
+}
+
+.title13 {
+    color: white;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 130px;
+}
+
+/* -------------------------------- Main Sixth start */
+#M-seventh {
+    height: 90vh;
+    width: 100%;
+    background-color: #e8631c;
+    display: flex;
+}
+
+.background-design3 {
+    height: 630px;
+    width: 100%;
+    background-image: url(Images/Shape\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -100px top -10px;
+}
+
+.title14 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.dummy-text14 {
+    height: 100px;
+    width: 860px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#input-box {
+    height: 40px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 136px;
+    padding-left: 10px;
+}
+
+.button {
+    height: 40px;
+    width: 200px;
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: -40px;
+    margin-left: 536px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.background-design4 {
+    height: 630px;
+    width: 100%;
+    background-image: url(Images/Shape\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -120px top -10px;
+}
+
+/* ----------------------------------------- Footer start */
+#footer {
+    min-height: 60vh;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    row-gap: 30px;
+    padding-left: 20px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.f-dummy-text {
+    height: 100px;
+    width: 550px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon i {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.col a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+/* Media screen for mobile   */
+@media (max-width:480px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 250px;
+        background-color: #303030;
+        padding: 80px 0 0 10px;
+        transition: 0.4s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mob-icon {
+        display: block;
+    }
+
+    #close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 35px;
+        font-size: 40px;
+    }
+
+    #Main {
+        min-height: 91vh;
+        width: 100%;
+        background-image: url(Images/Image5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right 0px top 0px;
+    }
+
+    .title1 {
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .dummy-text1 {
+        height: 100px;
+        width: 350px;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .btn1 {
+        margin-left: 30px;
+    }
+
+    /* ----------------------- Main second start */
+    #M-second {
+        min-height: 120vh;
+        width: 100%;
+        background-color: #e8631c;
+        background-image: url(Images/Shape\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title2 {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .dummy-text2 {
+        height: 100px;
+        width: 390px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 10px;
+        margin-left: 10px;
+    }
+
+    .country-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        row-gap: 20px;
+    }
+
+    /* ------------------------------- Main third start */
+    .title6 {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .dummy-text6 {
+        height: 100px;
+        width: 410px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .course-box {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    /* ---------------------------------- Main fourth Start */
+    #M-fourth {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    /* ---------------------------------- dance-type2 Start */
+    .dance-type1 {
+        height: inherit;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img5 {
+        height: 709px;
+        width: 100%;
+        background-image: url(Images/Image6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content1 {
+        height: 709px;
+        width: 100%;
+        background-color: #e8631c;
+    }
+
+    .background-design1 {
+        height: 700px;
+        width: 400px;
+        background-image: url(Images/Shape\ \(3\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top -200px left -100px;
+        position: absolute;
+    }
+
+    .title10 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .dummy-text10 {
+        width: 400px;
+        padding-left: 20px;
+    }
+
+    .btn2 {
+        margin-left: 20px;
+    }
+
+    /* ---------------------------------- dance-type2 Start */
+    .dance-type2 {
+        height: inherit;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content2 {
+        height: 709px;
+        width: 100%;
+        background-color: #e8631c;
+        border-top: 2px solid black;
+    }
+
+    .title11 {
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .dummy-text11 {
+        width: 400px;
+        padding-left: 20px;
+    }
+
+    .btn3 {
+        margin-left: 20px;
+    }
+
+    .background-design2 {
+        height: 700px;
+        width: 400px;
+        background-image: url(Images/Shape\ \(3\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 410px left -170px;
+        transform: rotate(180deg);
+        position: absolute;
+    }
+
+    .img6 {
+        height: 609px;
+        width: 100%;
+        background-image: url(Images/Image\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center left -170px;
+    }
+
+    /* --------------------------------- Main Fifth */
+    .title12 {
+        font-size: 40px;
+    }
+
+    .dummy-text12 {
+        width: 400px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .statistics-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 80px;
+        padding-bottom: 10px;
+    }
+
+    /* -------------------------------- Main Sixth start */
+    #M-sixth {
+        min-height: 90vh;
+        width: 100%;
+    }
+    .img7 {
+        height: 900px;
+        width: 100%;
+        background-image: url(Images/Image\ 1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: right left;
+    }
+
+    .imgae-overlay {
+        height: 900px;
+        width: 100%;
+        background-color: #e8631ca0;
+    }
+
+    .dummy-text13 {
+        width: 400px;
+        font-size: 20px;
+        padding-inline: 12px;
+        margin-left: 0px;
+    }
+
+    .title13 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    /* -------------------------------- Main Sixth start */
+    #M-seventh {
+        height: 90vh;
+        width: 100%;
+        background-color: #e8631c;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-design3 {
+        height: 700px;
+        width: 100%;
+        background-image: url(Images/Shape\ \(4\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 30px;
+    }
+
+    .title14 {
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .dummy-text14 {
+        width: 400px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    #input-box {
+        height: 40px;
+        width: 215px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+
+    .button {
+        height: 40px;
+        width: 140px;
+        background-color: #303030;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 4px;
+        margin-top: -40px;
+        margin-left: 235px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .background-design4 {
+        height: 630px;
+        width: 100%;
+        background-image: url(Images/Shape\ \(5\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left -10px top -90px;
+    }
+
+    /* ----------------------------------------- Footer start */
+    #footer {
+        padding: 20px;
+    }
+
+    .footer-title {
+        color: white;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .f-dummy-text {
+        height: 100px;
+        width: 350px;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .col a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+}
